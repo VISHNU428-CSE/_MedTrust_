@@ -1,0 +1,31 @@
+{
+  "name": "medtrust-chaincode",
+  "version": "1.0.0",
+  "description": "MedTrust Hyperledger Fabric Chaincode for Patient Consent, Medical Record Metadata, and Audit Trails",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "fabric-chaincode-node start",
+    "test": "jest --coverage --verbose",
+    "test:unit": "jest test/unit"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Kelly (MedTrust Blockchain Developer)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}

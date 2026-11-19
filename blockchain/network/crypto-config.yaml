@@ -1,0 +1,24 @@
+# Crypto material configuration for MedTrust Hyperledger Fabric Network
+OrdererOrgs:
+  - Name: Orderer
+    Domain: medtrust.com
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  - Name: Org1
+    Domain: org1.medtrust.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 2
+
+  - Name: Org2
+    Domain: org2.medtrust.com
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 2

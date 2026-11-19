@@ -1,0 +1,73 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Databases and database backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.bak
+
+# Uploads and user data
+uploads/
+storage/
+offline_cache/
+.demo_offline_cache/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Hyperledger Fabric private identities and generated network material
+blockchain/network/crypto-config/
+**/keystore/
+**/priv_sk
+blockchain/network/channel-artifacts/
+blockchain/network/connection-org1.json
+blockchain/network/connection-profiles/
+
+# Generated blockchain coverage
+blockchain/chaincode/coverage/
+
+# Local runtime state
+scripts/*.pid
+
+# Demo evidence and downloaded medical files
+scripts/downloads/
+scripts/screenshots/
+scripts/*evidence*.json
+scripts/ipr50_synthetic_mri.pdf
+backend/tests/pre_demo_pins.json
+
+# Local uploads and generated artifacts
+**/uploads/
+**/offline_cache/
+
+# Generated Fabric chaincode packages
+blockchain/network/*.tar.gz

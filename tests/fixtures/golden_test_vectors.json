@@ -1,0 +1,156 @@
+{
+  "CARDIOLOGY": {
+    "byte_length": 548,
+    "ipfs_cid": "bafybeimdt18a685c4ef09649cbd61d083e7medtrust",
+    "patient_id": "SYNTH-PAT-001",
+    "record_id": "REC-CARD-SYNTH-PAT-001-002",
+    "record_type": "CARDIOLOGY_VISIT",
+    "sample_record": {
+      "clinical_data": {
+        "assessment": "Routine outpatient follow-up. Normal sinus rhythm on synthetic ECG.",
+        "plan": "Continue current lifestyle recommendations. Annual review in 12 months.",
+        "vitals": {
+          "blood_pressure_diastolic": 76,
+          "blood_pressure_systolic": 118,
+          "heart_rate_bpm": 68,
+          "oxygen_saturation_pct": 99,
+          "respiratory_rate": 16
+        }
+      },
+      "encounter_date": "2026-09-20T14:15:00Z",
+      "facility": "Synthetic Heart Institute",
+      "ipfs_cid": "bafybeimdt18a685c4ef09649cbd61d083e7medtrust",
+      "patient_id": "SYNTH-PAT-001",
+      "record_id": "REC-CARD-SYNTH-PAT-001-002",
+      "record_type": "CARDIOLOGY_VISIT",
+      "sha256_checksum": "18a685c4ef09649cbd61d083e70a0c78cdeb83d806b22fc83c7df9296b29b48a",
+      "synthetic_notice": "SYNTHETIC TEST RECORD - NOT REAL MEDICAL DATA"
+    },
+    "sha256_digest": "18a685c4ef09649cbd61d083e70a0c78cdeb83d806b22fc83c7df9296b29b48a"
+  },
+  "EHR": {
+    "byte_length": 819,
+    "ipfs_cid": "bafybeimdtfd8dd8bb9f533caa14c2e9cef0medtrust",
+    "patient_id": "SYNTH-PAT-001",
+    "record_id": "REC-EHR-SYNTH-PAT-001-000",
+    "record_type": "EHR_GENERAL",
+    "sample_record": {
+      "chief_complaint": "Annual wellness examination and preventive health counseling.",
+      "clinical_data": {
+        "allergies": [
+          {
+            "reaction": "Mild skin rash",
+            "severity": "MODERATE",
+            "substance": "Synthetic Amoxicillin"
+          }
+        ],
+        "assessment_and_plan": "Well-managed baseline health. Routine laboratory screening ordered.",
+        "history_of_present_illness": "Synthetic patient presents for routine preventive health assessment. No acute complaints.",
+        "immunizations": [
+          {
+            "date": "2025-10-15",
+            "vaccine": "Synthetic Influenza Vaccine"
+          }
+        ],
+        "medications": [
+          {
+            "dosage": "10mg daily",
+            "name": "Synthetic Lisinopril",
+            "route": "Oral"
+          }
+        ]
+      },
+      "encounter_date": "2026-08-10T10:00:00Z",
+      "facility": "Synthetic Health System - Primary Care Clinic",
+      "ipfs_cid": "bafybeimdtfd8dd8bb9f533caa14c2e9cef0medtrust",
+      "patient_id": "SYNTH-PAT-001",
+      "record_id": "REC-EHR-SYNTH-PAT-001-000",
+      "record_type": "EHR_GENERAL",
+      "sha256_checksum": "fd8dd8bb9f533caa14c2e9cef0ae672ae4be99b3e66607d7f06e3e57dd88cdef",
+      "synthetic_notice": "SYNTHETIC TEST RECORD - STRICTLY NO REAL PHI"
+    },
+    "sha256_digest": "fd8dd8bb9f533caa14c2e9cef0ae672ae4be99b3e66607d7f06e3e57dd88cdef"
+  },
+  "LAB_REPORT": {
+    "byte_length": 794,
+    "ipfs_cid": "bafybeimdtc1a9163840a3685b46ee0f1cd9medtrust",
+    "patient_id": "SYNTH-PAT-001",
+    "record_id": "REC-LAB-SYNTH-PAT-001-001",
+    "record_type": "LAB_REPORT",
+    "sample_record": {
+      "clinical_data": {
+        "panel": "Comprehensive Metabolic Panel (Synthetic)",
+        "results": [
+          {
+            "reference_range": "70-99",
+            "status": "NORMAL",
+            "test": "Glucose",
+            "unit": "mg/dL",
+            "value": 92
+          },
+          {
+            "reference_range": "7-20",
+            "status": "NORMAL",
+            "test": "Blood Urea Nitrogen (BUN)",
+            "unit": "mg/dL",
+            "value": 14
+          },
+          {
+            "reference_range": "0.6-1.2",
+            "status": "NORMAL",
+            "test": "Creatinine",
+            "unit": "mg/dL",
+            "value": 0.9
+          },
+          {
+            "reference_range": "135-145",
+            "status": "NORMAL",
+            "test": "Sodium",
+            "unit": "mmol/L",
+            "value": 139
+          },
+          {
+            "reference_range": "3.5-5.0",
+            "status": "NORMAL",
+            "test": "Potassium",
+            "unit": "mmol/L",
+            "value": 4.1
+          }
+        ]
+      },
+      "encounter_date": "2026-09-15T09:30:00Z",
+      "facility": "Synthetic General Hospital - Lab Division",
+      "ipfs_cid": "bafybeimdtc1a9163840a3685b46ee0f1cd9medtrust",
+      "patient_id": "SYNTH-PAT-001",
+      "record_id": "REC-LAB-SYNTH-PAT-001-001",
+      "record_type": "LAB_REPORT",
+      "sha256_checksum": "c1a9163840a3685b46ee0f1cd9ecf9731bdf2fbc8ecb33a4ec3c135b031cc29c",
+      "synthetic_notice": "SYNTHETIC TEST RECORD - NOT REAL MEDICAL DATA"
+    },
+    "sha256_digest": "c1a9163840a3685b46ee0f1cd9ecf9731bdf2fbc8ecb33a4ec3c135b031cc29c"
+  },
+  "RADIOLOGY": {
+    "byte_length": 444,
+    "ipfs_cid": "bafybeimdtddf24c12968d2ffade1d7cd3d4medtrust",
+    "patient_id": "SYNTH-PAT-002",
+    "record_id": "REC-RAD-SYNTH-PAT-002-003",
+    "record_type": "RADIOLOGY_REPORT",
+    "sample_record": {
+      "clinical_data": {
+        "body_part": "Lumbar Spine",
+        "findings": "Synthetic imaging findings show normal alignment, no disk herniation or stenosis.",
+        "impression": "Normal synthetic lumbar spine study.",
+        "modality": "MRI"
+      },
+      "encounter_date": "2026-10-01T11:00:00Z",
+      "facility": "Synthetic Imaging Diagnostic Center",
+      "ipfs_cid": "bafybeimdtddf24c12968d2ffade1d7cd3d4medtrust",
+      "patient_id": "SYNTH-PAT-002",
+      "record_id": "REC-RAD-SYNTH-PAT-002-003",
+      "record_type": "RADIOLOGY_REPORT",
+      "sha256_checksum": "ddf24c12968d2ffade1d7cd3d4cbbef743b83754e1b67f396e645c191ba80d49",
+      "synthetic_notice": "SYNTHETIC TEST RECORD - NOT REAL MEDICAL DATA"
+    },
+    "sha256_digest": "ddf24c12968d2ffade1d7cd3d4cbbef743b83754e1b67f396e645c191ba80d49"
+  }
+}
